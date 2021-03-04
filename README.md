@@ -22,7 +22,7 @@ Affected by blind spots, occlusion, sparse... Perception only with the sensors(l
 My object detect framework is based on complex-yolov4, Thanks  maudzung a lot for provide such a  practical project!
 
 **result of a single car**
-![single-car](demo/single-car.gif)
+![single-car ](demo/single-car .gif)
 
 **result of a car fusing with road-side data(rough registration)**
 ![original](demo/original.jpg)
