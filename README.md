@@ -19,18 +19,22 @@ Affected by blind spots, occlusion, sparse... Perception only with the sensors(l
 
 **demo-video**
 
-My object detect framework is based on complex-yolov4, Thanks  maudzung a lot for provide such a  practical project!
+My object detect framework is based on complex-yolov4(https://github.com/maudzung/Complex-YOLOv4-Pytorch), Thanks  maudzung a lot for provide such a  practical project!
 
-**result of a single car**
+**result of a single car:**
 ![single-car](demo/single-car.gif)
 
-**result of a car fusing with road-side data(rough registration)**
+**result of a car fusing with road-side data(rough registration):**
+![fusion-initial](demo/fusion-initial.gif)
+
+Obviously, more objects are detected than a single car, however, you can notice that there are some clear misalignment in the regions of red circles:
 ![original](demo/original.jpg)
-Obviously, more objects are detected than a single car, however, you can notice that there are some clear misalignment in the regions of red circles.
 
-**result of a car fusing with road-side data(fine registration)**
+**result of a car fusing with road-side data(fine registration):**
+![fusion-corrected](demo/fusion-corrected.gif)
 
-Now, the misalignments are corrected and more objects are detected
+Now, the misalignments are corrected and more objects are detected:
+![after-corrected](demo/after-corrected.jpg)
 
 
 
