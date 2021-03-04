@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Vehicle-Road-Cooperative-Perception-demo
 **About this demo**
 
@@ -23,9 +22,10 @@ Affected by blind spots, occlusion, sparse... Perception only with the sensors(l
 My object detect framework is based on complex-yolov4, Thanks  maudzung a lot for provide such a  practical project!
 
 **result of a single car**
+![single-car](demo/single-car.mp4)
 
 **result of a car fusing with road-side data(rough registration)**
-
+![original](demo/original.jpg)
 Obviously, more objects are detected than a single car, however, you can notice that there are some clear misalignment in the regions of red circles.
 
 **result of a car fusing with road-side data(fine registration)**
@@ -64,6 +64,7 @@ My object detect framework is based on complex-yolov4, Thanks  maudzung a lot fo
 
 **result of a car fusing with road-side data(rough registration)**
 
+
 Obviously, more objects are detected than a single car, however, you can notice that there are some clear misalignment in the regions of red circles.
 
 **result of a car fusing with road-side data(fine registration)**
@@ -71,7 +72,3 @@ Obviously, more objects are detected than a single car, however, you can notice 
 Now, the misalignments are corrected and more objects are detected
 
 
-
-
-
->>>>>>> 76d72b6 (demo)
